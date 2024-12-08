@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		A9AE1FDE2D0639F100200A07 /* PBXContainerItemProxy */ = {
+		A9AE20172D063AB200200A07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A9AE1FC42D0639E200200A07 /* Project object */;
+			containerPortal = A9AE1FFD2D063AAC00200A07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9AE1FCB2D0639E200200A07;
+			remoteGlobalIDString = A9AE20042D063AAD00200A07;
 			remoteInfo = MineSwift;
 		};
-		A9AE1FE82D0639F100200A07 /* PBXContainerItemProxy */ = {
+		A9AE20212D063AB200200A07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A9AE1FC42D0639E200200A07 /* Project object */;
+			containerPortal = A9AE1FFD2D063AAC00200A07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A9AE1FCB2D0639E200200A07;
+			remoteGlobalIDString = A9AE20042D063AAD00200A07;
 			remoteInfo = MineSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A9AE1FCC2D0639E200200A07 /* MineSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9AE1FDD2D0639F100200A07 /* MineSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9AE1FE72D0639F100200A07 /* MineSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE20052D063AAD00200A07 /* MineSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE20162D063AB200200A07 /* MineSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE20202D063AB200200A07 /* MineSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9AE1FCE2D0639E200200A07 /* MineSwift */ = {
+		A9AE20072D063AAD00200A07 /* MineSwift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MineSwift;
 			sourceTree = "<group>";
 		};
-		A9AE1FE02D0639F100200A07 /* MineSwiftTests */ = {
+		A9AE20192D063AB200200A07 /* MineSwiftTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MineSwiftTests;
 			sourceTree = "<group>";
 		};
-		A9AE1FEA2D0639F100200A07 /* MineSwiftUITests */ = {
+		A9AE20232D063AB200200A07 /* MineSwiftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MineSwiftUITests;
 			sourceTree = "<group>";
@@ -48,21 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9AE1FC92D0639E200200A07 /* Frameworks */ = {
+		A9AE20022D063AAD00200A07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FDA2D0639F100200A07 /* Frameworks */ = {
+		A9AE20132D063AB200200A07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FE42D0639F100200A07 /* Frameworks */ = {
+		A9AE201D2D063AB200200A07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A9AE1FC32D0639E200200A07 = {
+		A9AE1FFC2D063AAC00200A07 = {
 			isa = PBXGroup;
 			children = (
-				A9AE1FCE2D0639E200200A07 /* MineSwift */,
-				A9AE1FE02D0639F100200A07 /* MineSwiftTests */,
-				A9AE1FEA2D0639F100200A07 /* MineSwiftUITests */,
-				A9AE1FCD2D0639E200200A07 /* Products */,
+				A9AE20072D063AAD00200A07 /* MineSwift */,
+				A9AE20192D063AB200200A07 /* MineSwiftTests */,
+				A9AE20232D063AB200200A07 /* MineSwiftUITests */,
+				A9AE20062D063AAD00200A07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A9AE1FCD2D0639E200200A07 /* Products */ = {
+		A9AE20062D063AAD00200A07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9AE1FCC2D0639E200200A07 /* MineSwift.app */,
-				A9AE1FDD2D0639F100200A07 /* MineSwiftTests.xctest */,
-				A9AE1FE72D0639F100200A07 /* MineSwiftUITests.xctest */,
+				A9AE20052D063AAD00200A07 /* MineSwift.app */,
+				A9AE20162D063AB200200A07 /* MineSwiftTests.xctest */,
+				A9AE20202D063AB200200A07 /* MineSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9AE1FCB2D0639E200200A07 /* MineSwift */ = {
+		A9AE20042D063AAD00200A07 /* MineSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9AE1FF12D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwift" */;
+			buildConfigurationList = A9AE202A2D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwift" */;
 			buildPhases = (
-				A9AE1FC82D0639E200200A07 /* Sources */,
-				A9AE1FC92D0639E200200A07 /* Frameworks */,
-				A9AE1FCA2D0639E200200A07 /* Resources */,
+				A9AE20012D063AAD00200A07 /* Sources */,
+				A9AE20022D063AAD00200A07 /* Frameworks */,
+				A9AE20032D063AAD00200A07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A9AE1FCE2D0639E200200A07 /* MineSwift */,
+				A9AE20072D063AAD00200A07 /* MineSwift */,
 			);
 			name = MineSwift;
 			packageProductDependencies = (
 			);
 			productName = MineSwift;
-			productReference = A9AE1FCC2D0639E200200A07 /* MineSwift.app */;
+			productReference = A9AE20052D063AAD00200A07 /* MineSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9AE1FDC2D0639F100200A07 /* MineSwiftTests */ = {
+		A9AE20152D063AB200200A07 /* MineSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9AE1FF42D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwiftTests" */;
+			buildConfigurationList = A9AE202D2D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwiftTests" */;
 			buildPhases = (
-				A9AE1FD92D0639F100200A07 /* Sources */,
-				A9AE1FDA2D0639F100200A07 /* Frameworks */,
-				A9AE1FDB2D0639F100200A07 /* Resources */,
+				A9AE20122D063AB200200A07 /* Sources */,
+				A9AE20132D063AB200200A07 /* Frameworks */,
+				A9AE20142D063AB200200A07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9AE1FDF2D0639F100200A07 /* PBXTargetDependency */,
+				A9AE20182D063AB200200A07 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A9AE1FE02D0639F100200A07 /* MineSwiftTests */,
+				A9AE20192D063AB200200A07 /* MineSwiftTests */,
 			);
 			name = MineSwiftTests;
 			packageProductDependencies = (
 			);
 			productName = MineSwiftTests;
-			productReference = A9AE1FDD2D0639F100200A07 /* MineSwiftTests.xctest */;
+			productReference = A9AE20162D063AB200200A07 /* MineSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A9AE1FE62D0639F100200A07 /* MineSwiftUITests */ = {
+		A9AE201F2D063AB200200A07 /* MineSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9AE1FF72D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwiftUITests" */;
+			buildConfigurationList = A9AE20302D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwiftUITests" */;
 			buildPhases = (
-				A9AE1FE32D0639F100200A07 /* Sources */,
-				A9AE1FE42D0639F100200A07 /* Frameworks */,
-				A9AE1FE52D0639F100200A07 /* Resources */,
+				A9AE201C2D063AB200200A07 /* Sources */,
+				A9AE201D2D063AB200200A07 /* Frameworks */,
+				A9AE201E2D063AB200200A07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9AE1FE92D0639F100200A07 /* PBXTargetDependency */,
+				A9AE20222D063AB200200A07 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				A9AE1FEA2D0639F100200A07 /* MineSwiftUITests */,
+				A9AE20232D063AB200200A07 /* MineSwiftUITests */,
 			);
 			name = MineSwiftUITests;
 			packageProductDependencies = (
 			);
 			productName = MineSwiftUITests;
-			productReference = A9AE1FE72D0639F100200A07 /* MineSwiftUITests.xctest */;
+			productReference = A9AE20202D063AB200200A07 /* MineSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A9AE1FC42D0639E200200A07 /* Project object */ = {
+		A9AE1FFD2D063AAC00200A07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					A9AE1FCB2D0639E200200A07 = {
+					A9AE20042D063AAD00200A07 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					A9AE1FDC2D0639F100200A07 = {
+					A9AE20152D063AB200200A07 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A9AE1FCB2D0639E200200A07;
+						TestTargetID = A9AE20042D063AAD00200A07;
 					};
-					A9AE1FE62D0639F100200A07 = {
+					A9AE201F2D063AB200200A07 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = A9AE1FCB2D0639E200200A07;
+						TestTargetID = A9AE20042D063AAD00200A07;
 					};
 				};
 			};
-			buildConfigurationList = A9AE1FC72D0639E200200A07 /* Build configuration list for PBXProject "MineSwift" */;
+			buildConfigurationList = A9AE20002D063AAC00200A07 /* Build configuration list for PBXProject "MineSwift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A9AE1FC32D0639E200200A07;
+			mainGroup = A9AE1FFC2D063AAC00200A07;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A9AE1FCD2D0639E200200A07 /* Products */;
+			productRefGroup = A9AE20062D063AAD00200A07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9AE1FCB2D0639E200200A07 /* MineSwift */,
-				A9AE1FDC2D0639F100200A07 /* MineSwiftTests */,
-				A9AE1FE62D0639F100200A07 /* MineSwiftUITests */,
+				A9AE20042D063AAD00200A07 /* MineSwift */,
+				A9AE20152D063AB200200A07 /* MineSwiftTests */,
+				A9AE201F2D063AB200200A07 /* MineSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A9AE1FCA2D0639E200200A07 /* Resources */ = {
+		A9AE20032D063AAD00200A07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FDB2D0639F100200A07 /* Resources */ = {
+		A9AE20142D063AB200200A07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FE52D0639F100200A07 /* Resources */ = {
+		A9AE201E2D063AB200200A07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A9AE1FC82D0639E200200A07 /* Sources */ = {
+		A9AE20012D063AAD00200A07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FD92D0639F100200A07 /* Sources */ = {
+		A9AE20122D063AB200200A07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9AE1FE32D0639F100200A07 /* Sources */ = {
+		A9AE201C2D063AB200200A07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A9AE1FDF2D0639F100200A07 /* PBXTargetDependency */ = {
+		A9AE20182D063AB200200A07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9AE1FCB2D0639E200200A07 /* MineSwift */;
-			targetProxy = A9AE1FDE2D0639F100200A07 /* PBXContainerItemProxy */;
+			target = A9AE20042D063AAD00200A07 /* MineSwift */;
+			targetProxy = A9AE20172D063AB200200A07 /* PBXContainerItemProxy */;
 		};
-		A9AE1FE92D0639F100200A07 /* PBXTargetDependency */ = {
+		A9AE20222D063AB200200A07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9AE1FCB2D0639E200200A07 /* MineSwift */;
-			targetProxy = A9AE1FE82D0639F100200A07 /* PBXContainerItemProxy */;
+			target = A9AE20042D063AAD00200A07 /* MineSwift */;
+			targetProxy = A9AE20212D063AB200200A07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		A9AE1FEF2D0639F100200A07 /* Debug */ = {
+		A9AE20282D063AB200200A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		A9AE1FF02D0639F100200A07 /* Release */ = {
+		A9AE20292D063AB200200A07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +383,7 @@
 			};
 			name = Release;
 		};
-		A9AE1FF22D0639F100200A07 /* Debug */ = {
+		A9AE202B2D063AB200200A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -422,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		A9AE1FF32D0639F100200A07 /* Release */ = {
+		A9AE202C2D063AB200200A07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,7 +461,7 @@
 			};
 			name = Release;
 		};
-		A9AE1FF52D0639F100200A07 /* Debug */ = {
+		A9AE202E2D063AB200200A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		A9AE1FF62D0639F100200A07 /* Release */ = {
+		A9AE202F2D063AB200200A07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,7 +507,7 @@
 			};
 			name = Release;
 		};
-		A9AE1FF82D0639F100200A07 /* Debug */ = {
+		A9AE20312D063AB200200A07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -529,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		A9AE1FF92D0639F100200A07 /* Release */ = {
+		A9AE20322D063AB200200A07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -554,43 +554,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9AE1FC72D0639E200200A07 /* Build configuration list for PBXProject "MineSwift" */ = {
+		A9AE20002D063AAC00200A07 /* Build configuration list for PBXProject "MineSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9AE1FEF2D0639F100200A07 /* Debug */,
-				A9AE1FF02D0639F100200A07 /* Release */,
+				A9AE20282D063AB200200A07 /* Debug */,
+				A9AE20292D063AB200200A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9AE1FF12D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwift" */ = {
+		A9AE202A2D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9AE1FF22D0639F100200A07 /* Debug */,
-				A9AE1FF32D0639F100200A07 /* Release */,
+				A9AE202B2D063AB200200A07 /* Debug */,
+				A9AE202C2D063AB200200A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9AE1FF42D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwiftTests" */ = {
+		A9AE202D2D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9AE1FF52D0639F100200A07 /* Debug */,
-				A9AE1FF62D0639F100200A07 /* Release */,
+				A9AE202E2D063AB200200A07 /* Debug */,
+				A9AE202F2D063AB200200A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9AE1FF72D0639F100200A07 /* Build configuration list for PBXNativeTarget "MineSwiftUITests" */ = {
+		A9AE20302D063AB200200A07 /* Build configuration list for PBXNativeTarget "MineSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9AE1FF82D0639F100200A07 /* Debug */,
-				A9AE1FF92D0639F100200A07 /* Release */,
+				A9AE20312D063AB200200A07 /* Debug */,
+				A9AE20322D063AB200200A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A9AE1FC42D0639E200200A07 /* Project object */;
+	rootObject = A9AE1FFD2D063AAC00200A07 /* Project object */;
 }
