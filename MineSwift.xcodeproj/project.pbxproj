@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A9E0E5802D082C67007683B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9E0E57F2D082C67007683B6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A9AE20172D063AB200200A07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A9AE20052D063AAD00200A07 /* MineSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE20162D063AB200200A07 /* MineSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AE20202D063AB200200A07 /* MineSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E0E57F2D082C67007683B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A9AE1FFC2D063AAC00200A07 = {
 			isa = PBXGroup;
 			children = (
+				A9E0E57F2D082C67007683B6 /* README.md */,
 				A9AE20072D063AAD00200A07 /* MineSwift */,
 				A9AE20192D063AB200200A07 /* MineSwiftTests */,
 				A9AE20232D063AB200200A07 /* MineSwiftUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E0E5802D082C67007683B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
