@@ -26,36 +26,63 @@ struct MinesweeperView: View {
 
 	var body: some View {
 		VStack {
-			VStack(spacing: 0) {
-				ForEach(0..<rows, id: \..self) { row in
-					HStack(spacing: 0) {
-						ForEach(0..<cols, id: \..self) { col in
-							Button(action: {
-								if flag {
+			ZStack {
+				VStack(spacing: 0) {
+					ForEach(0..<rows, id: \..self) { row in
+						HStack(spacing: 0) {
+							ForEach(0..<cols, id: \..self) { col in
+								Button(action: {
+									if flag {
+										game.flagCell(row: row, col: col)
+									} else {
+										game.revealCell(row: row, col: col)
+									}
+								}) {
+									CellView(cell: game.board[row][col], isHighlighted: isNeighborHovered(row: row, col: col))
+										.frame(width: 30, height: 30)
+										.border(Color.gray.opacity(0.2))
+										.animation(.easeInOut(duration: 0.3), value: isNeighborHovered(row: row, col: col))
+								}
+								.buttonStyle(PlainButtonStyle())
+								.onHover { isHovering in
+									withAnimation {
+										hoveredCell = isHovering ? (row, col) : nil
+									}
+								}
+								.onTapGesture(count: 2) {
 									game.flagCell(row: row, col: col)
-								} else {
-									game.revealCell(row: row, col: col)
 								}
-							}) {
-								CellView(cell: game.board[row][col], isHighlighted: isNeighborHovered(row: row, col: col))
-									.frame(width: 30, height: 30)
-									.border(Color.gray.opacity(0.2))
-									.animation(.easeInOut(duration: 0.3), value: isNeighborHovered(row: row, col: col))
-							}
-							.buttonStyle(PlainButtonStyle())
-							.onHover { isHovering in
-								withAnimation {
-									hoveredCell = isHovering ? (row, col) : nil
-								}
-							}
-							.onTapGesture(count: 2) {
-								game.flagCell(row: row, col: col)
 							}
 						}
 					}
 				}
+				.clipShape(RoundedRectangle(cornerRadius: 10))
+				
+				if game.gameOver {
+					Text("Game Over")
+						.font(.largeTitle)
+						.bold()
+						.foregroundColor(.red)
+						.shadow(radius: 10)
+						.shadow(radius: 10)
+						.shadow(radius: 10)
+				} else if game.gameWon {
+					Text("You Win!")
+						.font(.largeTitle)
+						.bold()
+						.foregroundColor(.green)
+						.shadow(radius: 10)
+						.shadow(radius: 10)
+						.shadow(radius: 10)
+				}
+				if game.gameOver || game.gameWon {
+					Button() {
+						
+					} label: {
+						Text("Restart game")
+					}
+				}
 			}
-			.clipShape(RoundedRectangle(cornerRadius: 10))
 
 			List {
 				Toggle(isOn: $flag, label: {
@@ -66,16 +93,6 @@ struct MinesweeperView: View {
 				Text("Total Bombs: \(bombs)")
 					.padding()
 					.frame(alignment: .center)
-			}
-
-			if game.gameOver {
-				Text("Game Over")
-					.font(.largeTitle)
-					.foregroundColor(.red)
-			} else if game.gameWon {
-				Text("You Win!")
-					.font(.largeTitle)
-					.foregroundColor(.green)
 			}
 		}
 		.padding()
@@ -94,14 +111,17 @@ struct CellView: View {
 
 	var body: some View {
 		ZStack {
-			if isHighlighted {
-				Color.gray.opacity(0.1)
-					.animation(.easeInOut(duration: 0.3), value: isHighlighted)
-			} else if cell.state == .revealed {
-				Color.black
+			if cell.state == .revealed {
+				Color.black.opacity(isHighlighted ? 0.5 : 1)
 			} else {
-				Color.blue
+				Color.blue.opacity(isHighlighted ? 0.8 : 1)
+//					.animation(.spring(duration: 0.1), value: isHighlighted)
 			}
+			
+//			if isHighlighted {
+//				Color.gray.opacity(0.05)
+//					.animation(.spring(duration: 0.1), value: isHighlighted)
+//			}
 
 			if cell.state == .revealed {
 				if cell.isMine {
@@ -130,5 +150,5 @@ struct CellView: View {
 }
 
 #Preview {
-	MinesweeperView(rows: 10, cols: 10, bombs: 5)
+	MinesweeperView(rows: 10, cols: 10, bombs: 10)
 }
